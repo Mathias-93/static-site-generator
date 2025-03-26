@@ -19,6 +19,10 @@ def text_node_to_html_node(text_node):
         raise Exception("Invalid TextType")
 
 
+def split_nodes_delimiter(old_nodes, delimiter, text_type):
+    pass
+
+
 def main():
     node = TextNode("This is some anchor text", TextType.LINK, "https://www.boot.dev")
     print("main")
